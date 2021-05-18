@@ -62,6 +62,7 @@ public class App {
 				// 形態素解析
 				for(List<Morpheme> list: tokenizer.tokenizeSentences(Tokenizer.SplitMode.C, descriptionString)) {
 					for(Morpheme morpheme: list) {
+						if(!morpheme.partOfSpeech().contains("名詞")) continue;
 						System.out.println(morpheme.surface() + "\t" // 表層形
 								+ String.join("-", morpheme.partOfSpeech()) + "," // 品詞
 								+ morpheme.dictionaryForm() + "," // 原形
