@@ -1,0 +1,7 @@
+digraph "jp.ac.dendai.im.web.search:google-search:jar:1.0-SNAPSHOT" { 
+	"jp.ac.dendai.im.web.search:google-search:jar:1.0-SNAPSHOT" -> "junit:junit:jar:4.11:test" ; 
+	"jp.ac.dendai.im.web.search:google-search:jar:1.0-SNAPSHOT" -> "com.worksap.nlp:sudachi:jar:0.5.2:compile" ; 
+	"junit:junit:jar:4.11:test" -> "org.hamcrest:hamcrest-core:jar:1.3:test" ; 
+	"com.worksap.nlp:sudachi:jar:0.5.2:compile" -> "org.glassfish:javax.json:jar:1.1:compile" ; 
+	"com.worksap.nlp:sudachi:jar:0.5.2:compile" -> "com.worksap.nlp:jdartsclone:jar:1.2.0:compile" ; 
+ } 
