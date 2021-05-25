@@ -24,7 +24,7 @@ import com.worksap.nlp.sudachi.Tokenizer;
 
 /** フィード(RSS) の全 item 要素 の description 要素の内容を Sudachi で形態素解析 */
 
-public class App {
+public class NounExtroctor {
 	public static void main(String[] args) {
 		String urlString = "https://rss.itmedia.co.jp/rss/2.0/itmedia_all.xml";	// 解析対象のRSS (ITmedia 総合記事一覧)
 		try {
