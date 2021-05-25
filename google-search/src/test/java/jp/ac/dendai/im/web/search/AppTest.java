@@ -1,4 +1,4 @@
-package com.example;
+package jp.ac.dendai.im.web.search;
 
 import static org.junit.Assert.assertTrue;
 

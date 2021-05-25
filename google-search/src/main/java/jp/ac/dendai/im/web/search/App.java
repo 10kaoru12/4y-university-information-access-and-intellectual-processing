@@ -1,4 +1,4 @@
-package com.example;
+package jp.ac.dendai.im.web.search;
 
 import java.io.InputStream;
 import java.net.URL;
